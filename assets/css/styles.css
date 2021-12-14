@@ -9,7 +9,7 @@ a {
     position: relative;
     padding: 18px 2%;
     height: 50px;
-    z-index: 99999;
+    z-index: 9999;
     background: transparent;
     position: fixed;
 }
