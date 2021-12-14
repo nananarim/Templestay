@@ -41,6 +41,7 @@ a {
     padding: 20px 0 20px 10px;
     font-size: 14px;
     color: #111;
+    font-weight: 600;
 }
 
 .header .gnb li a:hover{
@@ -83,7 +84,7 @@ a {
   z-index: 99;
 }
 .sec-01-title{
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 100px;
   z-index: 99;
 }
@@ -91,7 +92,7 @@ a {
   color: #798777;
 }
 .title{
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-top: 30px;
 }
 /* cloud */
@@ -283,7 +284,7 @@ a {
 }
 .intro-title{
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   padding: 10px 0;
 }
@@ -651,6 +652,7 @@ footer .txt-center{
     font-size: 12px;
   }
 }
+
 @media (max-width: 541px){
   .header .logo {
     width: 470px;
@@ -790,9 +792,8 @@ footer .txt-center{
   }
 }
 
- /* 태블릿용 CSS */
-  
- @media all and (min-width:769px) {
+/* 태블릿용 CSS */ 
+@media all and (min-width:769px) {
     .header {
       display: grid;
       grid-template-columns: 30% 70%;
@@ -845,7 +846,7 @@ footer .txt-center{
     }
   }
   
-  /* 컴퓨터용 CSS */
+/* 컴퓨터용 CSS */
   
   @media all and (min-width:1132px) {
     .header {
@@ -856,32 +857,7 @@ footer .txt-center{
       padding-left: 50px;
     }
     .header .gnb li a {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
   
-  /* add */
-  .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active1, .accordion:hover {
-  background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
