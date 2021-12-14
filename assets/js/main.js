@@ -4,7 +4,7 @@ const headerHeight = header.getBoundingClientRect().height;
  
 window.addEventListener("scroll", () => {
       if (window.scrollY > headerHeight) {
-      header.setAttribute("style", "background: #fff;");
+      header.setAttribute("style", "background: #ffffff;");
    } else {
       
 header.setAttribute("style", "background: transparent;");
