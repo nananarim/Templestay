@@ -9,8 +9,9 @@ a {
     position: relative;
     padding: 18px 2%;
     height: 50px;
-    z-index: 99;
-    background: #D5D9C4;
+    z-index: 99999;
+    background: transparent;
+    position: fixed;
 }
   
 .header .logo {
@@ -801,7 +802,6 @@ footer .txt-center{
       height: auto;
       margin-top: auto;
       margin-bottom: auto;
-      background: #D5D9C4;
     }
     .header .logo {
       padding: 10px 20px;

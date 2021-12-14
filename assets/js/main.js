@@ -1,3 +1,16 @@
+// Header
+const header = document.querySelector(".header");
+const headerHeight = header.getBoundingClientRect().height;
+ 
+window.addEventListener("scroll", () => {
+      if (window.scrollY > headerHeight) {
+      header.setAttribute("style", "background: #fff;");
+   } else {
+      
+header.setAttribute("style", "background: transparent;");
+   }
+});
+
 //menu-toggle-btn
 $(function() {
     $(".menu-toggle-btn").click(function() {
